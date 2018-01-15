@@ -6,7 +6,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "go build github.com/pgcrooks/hello",
+            "command": "go install github.com/pgcrooks/hello",
             "problemMatcher": [
                 "$go"
             ]
