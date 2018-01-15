@@ -3,10 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var msg string
-	var a, b, c int = 1, 2, 3
-
-	msg = "Hello there person"
+	msg := "Hello there person"
+	a, b, c := 1, false, 3
 
 	fmt.Println(msg, a, b, c)
 }
